@@ -119,7 +119,6 @@ public class IME extends InputMethodService
                 }
                 break;
             case Keyboard.KEYCODE_DONE:
-                //https://stackoverflow.com/questions/30698657/android-handle-search-button-press-on-custom-keyboard
                 final int options = this.getCurrentInputEditorInfo().imeOptions;
                 final int actionId = options & EditorInfo.IME_MASK_ACTION;
 
